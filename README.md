@@ -32,33 +32,33 @@ AI-Reply-Email-Generator/
 
 ### 1. Clone the repo
 
-```bash
+```bash```
 git clone https://github.com/your-username/email-writer-assistant.git
 cd email-writer-assistant
 
+---
+### **2. Setup frontend**
 
-**### 2. Setup frontend**
+```bash```
 cd frontend
 npm install
 npm run dev
 
 
-3. Setup backend
+3. **Setup backend**
 Run the Backend (Spring Boot)
 Run the Application.java file
 Make sure to use your own api keys
 
 
-
-
-4. Load Chrome Extension
+4. **Load Chrome Extension**
 Go to chrome://extensions/
 Enable Developer Mode
 Click Load unpacked
 Select the extensions/ folder
 
 
-🔧 Tech Stack
+🔧 **Tech Stack**
 Frontend: React, Vite, Material UI
 Backend: Spring Boot (Java), RESTful API
 Extension: Chrome Extension (Manifest V3)
