@@ -17,18 +17,7 @@ An intelligent email assistant that generates context-aware replies to emails us
 
 ---
 
-## 📁 Folder Structure
-AI-Reply-Email-Generator/
-├── frontend/ # Vite React app
-├── backend/ # Springboot API
-├── extensions/ # Chrome extension code
-└── .gitignore
-
-
-
----
-
-## 🛠️ Getting Started
+# 🛠️ Getting Started
 
 ### 1. Clone the repo
 
@@ -36,7 +25,6 @@ AI-Reply-Email-Generator/
 git clone https://github.com/your-username/email-writer-assistant.git
 cd email-writer-assistant
 
----
 ### **2. Setup frontend**
 
 ```bash```
@@ -45,24 +33,24 @@ npm install
 npm run dev
 
 
-3. **Setup backend**
+### 3. **Setup backend**
 Run the Backend (Spring Boot)
 Run the Application.java file
 Make sure to use your own api keys
 
 
-4. **Load Chrome Extension**
-Go to chrome://extensions/
-Enable Developer Mode
-Click Load unpacked
-Select the extensions/ folder
+### 4. **Load Chrome Extension**
+- Go to chrome://extensions/
+- Enable Developer Mode
+- Click Load unpacked
+- Select the extensions/ folder
 
-
-🔧 **Tech Stack**
-Frontend: React, Vite, Material UI
-Backend: Spring Boot (Java), RESTful API
-Extension: Chrome Extension (Manifest V3)
-AI: Gemini API 
+---
+## 🔧 **Tech Stack**
+**Frontend**: React, Vite, Material UI
+**Backend**: Spring Boot (Java), RESTful API
+**Extension**: Chrome Extension (Manifest V3)
+**AI**: Gemini API 
 
 
 
